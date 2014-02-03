@@ -284,11 +284,11 @@ HEADER
 
 
 #header #main-nav ul li { list-style:none; line-height:30px; }
-#header #main-nav ul li a { color:#929292; font-size:18px; padding:4px 30px 4px 20px; -webkit-border-radius:30px;  -moz-border-radius:30px; -o-border-radius:30px; border-radius:30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#header #main-nav ul li a { color:#929292; font-size:18px; padding:4px 20px 5px 18px; -webkit-border-radius:30px;  -moz-border-radius:30px; -o-border-radius:30px; border-radius:30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 #header #main-nav ul li.external a { background-image:url(../images/external_link.gif); background-position:80% 50%; background-repeat:no-repeat; }
 #header #main-nav ul li a:hover { text-decoration:none; color:#49abc6; }
 #header #main-nav ul li.selected a,
-#header #main-nav ul li.current a { -webkit-border-radius:30px;  -moz-border-radius:30px; -o-border-radius:30px; border-radius:30px;background-color: #2fd498; background: -webkit-gradient(linear, left top, right top, from(#42c1e4), to(#49acc7));background: -webkit-linear-gradient(left, #42c1e4, #49acc7);background: -moz-linear-gradient(left, #42c1e4, #49acc7); background: -ms-linear-gradient(left, #42c1e4, #49acc7); background: -o-linear-gradient(left, #42c1e4, #49acc7); padding: 4px 30px 4px 20px; color:#fff; text-shadow:0px -1px 0px #338ca4;}
+#header #main-nav ul li.current a { -webkit-border-radius:30px;  -moz-border-radius:30px; -o-border-radius:30px; border-radius:30px;background-color: #2fd498; background: -webkit-gradient(linear, left top, right top, from(#42c1e4), to(#49acc7));background: -webkit-linear-gradient(left, #42c1e4, #49acc7);background: -moz-linear-gradient(left, #42c1e4, #49acc7); background: -ms-linear-gradient(left, #42c1e4, #49acc7); background: -o-linear-gradient(left, #42c1e4, #49acc7); padding: 4px 20px 5px 18px; color:#fff; text-shadow:0px -1px 0px #338ca4;}
 #header #main-nav ul li.selected a:hover,
 #header #main-nav ul li.current a:hover { color:#dbf8ee; }
 #header .social{ /* margin:0; */ /* padding:0; */ }
