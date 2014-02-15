@@ -123,12 +123,13 @@ div.one-half, div.one-third, div.two-third, div.three-fourth, div.one-fourth{pos
 div.one-half:first-child, div.one-third:first-child, div.two-third:first-child, div.three-fourth:first-child, div.one-fourth:first-child, .first{margin-left:0 !important; clear:left;}
 
 .one-half img {float: left; width: 130px; /* height: 170px; */ border: 1px solid #aaa; margin-right: 10px; padding: 3px}
+.foto {float: left; width: 150px; /* height: 170px; */ border: 1px solid #aaa; margin-right: 10px; padding: 3px;}
 
 /*--------------------------
 CONTENT
 ---------------------------*/
 #main { width:74.23%; float:right; }
-#main .content, #main .last-content{ /* min-height:1300px; */ padding-top: 50px; position:relative; clear:both; padding-bottom: 200px;}
+#main .content, #main .last-content{ /* min-height:1300px; */ padding-top: 50px; position:relative; clear:both; padding-bottom: 100px;}
 #main .last-content{ padding-bottom: 400px; }
 #main .content .page_title h2, #main .last-content .page_title h2, .title_underline{ font-size:11px; text-transform:uppercase; border-bottom:1px solid #bebebe; letter-spacing:3px; margin-bottom:30px; float:left; width:100%; }
 #main .content .page_title h2 span{ position:absolute; right:0; }
@@ -274,7 +275,7 @@ COMMENTS
 /*--------------------------
 HEADER
 ---------------------------*/
-#header { margin-top:40px; width:14.69%; position:fixed; float:left; }
+#header { margin-top:40px; width:14.69%; position:fixed; float:left; min-width: 175px;}
 #header #logo { text-indent:-9999999px;}
 #header #logo a { display:block; background:url(../images/logo.png) no-repeat; width:150px; height:145px; }
 #header #main-nav{ margin-bottom:40px;}
@@ -285,7 +286,7 @@ HEADER
 
 #header #main-nav ul li { list-style:none; line-height:30px; }
 #header #main-nav ul li a { color:#929292; font-size:18px; padding:4px 20px 5px 18px; -webkit-border-radius:30px;  -moz-border-radius:30px; -o-border-radius:30px; border-radius:30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
-#header #main-nav ul li.external a { background-image:url(../images/external_link.gif); background-position:80% 50%; background-repeat:no-repeat; }
+#header #main-nav ul li.external a { background-image:url(../images/external_link.gif); background-position: 95% 50%; background-repeat:no-repeat; }
 #header #main-nav ul li a:hover { text-decoration:none; color:#49abc6; }
 #header #main-nav ul li.selected a,
 #header #main-nav ul li.current a { -webkit-border-radius:30px;  -moz-border-radius:30px; -o-border-radius:30px; border-radius:30px;background-color: #2fd498; background: -webkit-gradient(linear, left top, right top, from(#42c1e4), to(#49acc7));background: -webkit-linear-gradient(left, #42c1e4, #49acc7);background: -moz-linear-gradient(left, #42c1e4, #49acc7); background: -ms-linear-gradient(left, #42c1e4, #49acc7); background: -o-linear-gradient(left, #42c1e4, #49acc7); padding: 4px 20px 5px 18px; color:#fff; text-shadow:0px -1px 0px #338ca4;}
@@ -359,10 +360,12 @@ acronym { border-bottom:1px dotted #ccc; }
 
 #header #main-nav ul{ display:block; }
 #header #main-nav select{ display:none; }
+.registration-button {padding-left:23px;}
 
 @media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 767px)  {
 body{ background:; padding:0 20px;}	
-#main .content, #main .last-content{ padding-bottom: 200px;}
+.registration-button {padding-left:0px;}
+#main .content, #main .last-content{ padding-bottom: 50px;}
 /*#page{ padding:0 20px;}*/
 #header { position:relative; width:100%; float:none; margin-top:40px; text-align:center;  }
 #header #logo { text-indent:-9999999px; width:150px; height:145px; margin:0 auto 30px auto; }
@@ -415,7 +418,7 @@ body{ background:; padding:0 20px;}
 
 @media handheld and (max-width: 479px), screen and (max-device-width: 479px), screen and (max-width: 479px)  {
 #main .content, #main .last-content{ padding-bottom: 50px; }	
-	
+.registration-button {padding-left:0px;}	
 /*viewing*/
 #header .view{ text-align:center; margin:0 auto;}
 #header .view .view_holder{ width:60px; margin:0 auto; }
